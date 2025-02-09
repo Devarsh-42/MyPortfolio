@@ -10,17 +10,13 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
+    // Ensure clean builds
     emptyOutDir: true,
-    // Add sourcemap for better debugging
-    sourcemap: true,
-    // Minify the output
-    minify: 'terser',
-    // Configure rollup options
+    // Reduce chunking for better compatibility
     rollupOptions: {
       output: {
-        manualChunks: undefined,
-      },
-    },
-  },
+        manualChunks: undefined
+      }
+    }
+  }
 });
