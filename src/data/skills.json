@@ -4,6 +4,10 @@
     "imageSrc": "skills/flutter.png"
   },
   {
+    "title": "Android",
+    "imageSrc": "skills/android.png"
+  },
+  {
     "title": "Kotlin",
     "imageSrc": "skills/kotlin.png"
   },
@@ -12,16 +16,32 @@
     "imageSrc": "skills/java.png"
   },
   {
-    "title": "Flask",
-    "imageSrc": "skills/flask.png"
-  },
-  {
     "title": "AWS",
     "imageSrc": "skills/aws.png"
   },
   {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Flask",
+    "imageSrc": "skills/flask.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
+  },
+  {
     "title": "Dcoker",
     "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png"
   },
   {
     "title": "HTML",

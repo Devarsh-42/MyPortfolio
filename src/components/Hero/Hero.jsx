@@ -11,7 +11,7 @@ export const Hero = () => {
           Hello, I am Devarsh Mehta, a Cross-Platform and Native Android Developer with a focus on app development using modern frameworks and AI-driven solutions. Skilled in Data Structures and Algorithms (DSA), with a strong foundation in Mobile App design and backend development. Currently a 3rd-year ICT undergraduate passionate about building impactful technology solutions.
         </p>
         <div className={styles.buttonContainer}>
-          <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+          <a href="mailto:devarshmehta.42@gmail.com" className={styles.contactBtn}>
             Contact Me
           </a>
           <a
