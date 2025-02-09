@@ -1,0 +1,34 @@
+[
+  {
+    "title": "JATAYU - Women Safety App",
+    "imageSrc": "projects/jatayu_img.jpg",
+    "description": "A mobile app to enhance women's safety by alerting nearby police of harassment incidents within a 2 km radius. Integrated YOLO for real-time CCTV analysis and enabled location sharing via Firebase.",
+    "skills": ["Flutter", "Firebase", "YOLO", "Google Maps API", "Geolocation", "SOS Alert"],
+    "demo": "https://www.youtube.com/watch?v=VXfzulX51gs",
+    "source": "https://github.com/Devarsh-42/RakshaLink"
+  },
+  {
+    "title": "SmartSend - AI-Powered Email Scheduler",
+    "imageSrc": "projects/smart_send_img.jpg",
+    "description": "An AI-based email scheduler app leveraging Google’s Gemini API for intelligent email generation, with Firebase for authentication and Java Mail API for automation.",
+    "skills": ["Kotlin", "Firebase", "Google Gemini API", "Java Mail API"],
+    "demo": "https://www.youtube.com/watch?v=wPBAhE-aKY8&t=52s",
+    "source": "https://github.com/Devarsh-42/SmartSend"
+  },
+  {
+    "title": "Plasma - Confrence Management App",
+    "imageSrc": "projects/plasma_img.jpg",
+    "description": "A confrence management app for Pandit Deendayal Energy University for Plasma Conference's attendees and organizers, with a responsive UI and backend using FLutter, Firebase & Realtime Scheduling.",
+    "skills": ["Flutter", "Dart", "Firebase", "Realtime Scheduling"],
+    "demo": "https://www.youtube.com/watch?v=8mTVPN8OCVM&t=21s",
+    "source": ""
+  },
+  {
+    "title": "MedisyncExperience - Healthcare App",
+    "imageSrc": "projects/project.png",
+    "description": "A healthcare app developed using Java and XML, utilizing SQLite for local storage and MySQL for remote database management. The app allows users to find and schedule appointments with healthcare providers efficiently.",
+    "skills": ["Java", "XML", "SQLite", "MySQL"],
+    "demo": "",
+    "source": "https://github.com/Devarsh-42/MediSyncXperience01"
+  }
+]

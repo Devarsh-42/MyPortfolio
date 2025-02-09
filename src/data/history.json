@@ -1,0 +1,37 @@
+[
+  {
+    "role": "Native & Flutter Developer Intern",
+    "organisation": "CodeHop Interfusion",
+    "startDate": "May 2024",
+    "endDate": "November 2024",
+    "experiences": [
+      "Collaborated with a team of 5+ developers to build Mason, a multiplayer board game connecting players via a host mobile server on the same network.",
+      "Developed the UI for a job portal similar to Glassdoor, improving user experience and responsiveness.",
+      "Integrated APIs and followed Agile methodologies, reducing the development cycle by 2 weeks."
+    ],
+    "imageSrc": "history/codehop_fusion_logo.jpg"
+  },
+  {
+    "role": "Flutter & Backend Developer Intern",
+    "organisation": "Gormish",
+    "startDate": "December 2024",
+    "endDate": "February 2025",
+    "experiences": [
+      "Built a food delivery app from scratch for street vendors using Flutter for frontend and Flask for backend.",
+      "Designed and tested 10+ REST APIs for PostgreSQL integration to ensure seamless data flow.",
+      "Deployed backend server on AWS S3 and published the app on Google Play Store."
+    ],
+    "imageSrc": "history/gormish_logo.png"
+  },
+  {
+    "role": "Lead Developer",
+    "organisation": "Conference Manager App for PDEU",
+    "startDate": "November 2024",
+    "endDate": "December 2024",
+    "experiences": [
+      "Developed a mobile app for the Plasma 2024 conference, used by 200+ attendees.",
+      "Implemented real-time schedule updates, speaker details, and interactive Q&A features."
+    ],
+    "imageSrc": "history/Pandit_Deendayal_Energy_University_logo.png"
+  }
+]
