@@ -10,8 +10,8 @@
   {
     "title": "SmartSend - AI-Powered Email Scheduler",
     "imageSrc": "projects/smart_send_img.jpg",
-    "description": "An AI-based email scheduler app leveraging Google’s Gemini API for intelligent email generation, with Firebase for authentication and Java Mail API for automation.",
-    "skills": ["Kotlin", "Firebase", "Google Gemini API", "Java Mail API"],
+    "description": "An AI-based email scheduler app leveraging Google’s Gemini API for intelligent email generation, with Firebase for authentication and Java Mail API for automation. Implemented MVVM architecture for seamless user experience.",
+    "skills": ["Kotlin", "Firebase", "Google Gemini API", "Java Mail API", "MVVM Architecture"],
     "demo": "https://www.youtube.com/watch?v=wPBAhE-aKY8&t=52s",
     "source": "https://github.com/Devarsh-42/SmartSend"
   },
@@ -30,5 +30,13 @@
     "skills": ["Java", "XML", "SQLite", "MySQL"],
     "demo": "",
     "source": "https://github.com/Devarsh-42/MediSyncXperience01"
+  },
+  {
+    "title": "Suitain",
+    "imageSrc": "projects/project.png",
+    "description": "SUSTAIN - Satellite Utilization for Smart Tools in Agriculture and Innovative Networking is an App & Website built for NASA Space App Challange 2024",
+    "skills": ["Flutter", "MapBox Api", "Google Auth", "NASA Earth Data API"],
+    "demo": "https://www.youtube.com/watch?v=JIWPIHtkWag&t=21s",
+    "source": "https://github.com/Devarsh-42/SUSTAIN"
   }
 ]

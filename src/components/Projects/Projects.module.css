@@ -1,10 +1,9 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  background: var(--background-primary); /* Match site background */
+  padding: 50px 10%;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .title {
@@ -12,15 +11,68 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
 }
 
 .projects {
-  margin-top: 37px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: linear-gradient(160deg, #576cbc, #1c3b60);
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 24px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 18px 25px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
   width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.project-description {
+  font-size: 18px;
+  margin: 10px 0;
+  color: var(--color-light);
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.project-link {
+  text-decoration: none;
+  background: var(--color-primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.project-link:hover {
+  background: var(--color-accent);
 }

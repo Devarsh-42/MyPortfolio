@@ -13,7 +13,7 @@
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 30px; /* Reduced from 35px */
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -26,7 +26,7 @@
 }
 
 .aboutImage {
-  width: 65%;
+  width: 70%; /* Increased from 65% */
 }
 
 .aboutItems {
@@ -42,7 +42,7 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 20px; /* Reduced from 25px */
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -54,25 +54,25 @@
 }
 
 .aboutItem img {
-  width: 50px; /* Adjust size as needed */
-  height: 50px;
+  width: 70px; /* Increased size from 50px */
+  height: 70px; /* Increased size from 50px */
   object-fit: cover;
-  margin-right: 15px;
+  margin-right: 35px;
   border-radius: 10px;
+  padding-right: 10px;
 }
-
 
 .aboutItem:hover {
   background-size: 100% 100%;
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: 22px; /* Reduced from 25px */
   font-weight: 600;
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 22px; /* Reduced from 25px */
 }
 
 @media screen and (max-width: 830px) {
