@@ -1,34 +1,105 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
+import { Navbar } from "../Navbar/Navbar";
 
 export const Hero = () => {
   return (
     <section className={styles.container}>
+      {/* Add Navbar */}
+      <Navbar />
+
+      {/* Content Section */}
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Devarsh</h1>
+        <div className={styles.greeting}>👋 Hello, I'm</div>
+        <h1 className={styles.title}>
+          <span className={styles.titleName}>Devarsh Mehta</span>
+          <span className={styles.titleRole}>Mobile & Backend Developer</span>
+        </h1>
         <p className={styles.description}>
-          Hello, I am Devarsh Mehta, a Cross-Platform and Native Android Developer with a focus on app development using modern frameworks and AI-driven solutions. Skilled in Data Structures and Algorithms (DSA), with a strong foundation in Mobile App design and backend development. Currently a 3rd-year ICT undergraduate passionate about building impactful technology solutions.
+          I'm a <span className={styles.highlight}>4th-year ICT Engineering student</span> specializing in{" "}
+          <span className={styles.highlight}>Cross-Platform & Native Mobile Development</span> and{" "}
+          <span className={styles.highlight}>Backend Development</span>. I have hands-on experience building{" "}
+          <span className={styles.highlight}>AI-powered applications</span> with{" "}
+          <span className={styles.highlight}>AI agent integration</span>, and I've also have experience with deployment and scaling processes various{" "}
+          <span className={styles.highlight}>Cloud Platforms</span>.
         </p>
+
         <div className={styles.buttonContainer}>
-          <a href="mailto:devarshmehta.42@gmail.com" className={styles.contactBtn}>
-            Contact Me
+          <a
+            href="https://github.com/Devarsh-42"
+            className={styles.contactBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={getImageUrl("contact/github_icon.png")}
+              alt="GitHub"
+              className={styles.btnIcon}
+            />
+            GitHub
           </a>
           <a
-            href="assets/hero/MyResume_2025.pdf"
+            href="https://www.linkedin.com/in/devarsh-mehta-6670581b8/"
+            className={styles.secondaryBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={getImageUrl("contact/linkedin_Icon.png")}
+              alt="LinkedIn"
+              className={styles.btnIcon}
+            />
+            LinkedIn
+          </a>
+          <a
+            href="https://hashnode.com/@DevarshMehta"
+            className={styles.secondaryBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={getImageUrl("contact/blog_icon.png")}
+              alt="Blog"
+              className={styles.btnIcon}
+            />
+            Blog
+          </a>
+          <a
+            href="/resume.pdf"
             className={styles.downloadBtn}
-            download>
-            Download Resume
+            download="Devarsh_Mehta_Resume.pdf"
+          >
+            <span className={styles.btnIconText}>📄</span>
+            Resume
           </a>
         </div>
       </div>
-      <img
-        src={getImageUrl("hero/heroImage.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
-      />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+
+      {/* Image Section */}
+      <div className={styles.imageWrapper}>
+        <div className={styles.imageContainer}>
+          <div className={styles.imageBg}></div>
+          <img
+            src={getImageUrl("hero/devarsh_profile_pic.jpg")}
+            alt="Hero image of Devarsh"
+            className={styles.heroImg}
+          />
+        </div>
+      </div>
+
+      {/* Background Elements */}
+      <div className={styles.backgroundGrid}></div>
+      <div className={styles.gradientOrb1}></div>
+      <div className={styles.gradientOrb2}></div>
+
+      {/* Scroll Indicator */}
+      <div className={styles.scrollIndicator}>
+        <div className={styles.scrollText}>Explore My Work</div>
+        <div className={styles.scrollMouse}>
+          <div className={styles.scrollDot}></div>
+        </div>
+      </div>
     </section>
   );
 };

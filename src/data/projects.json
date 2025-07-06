@@ -4,7 +4,7 @@
     "imageSrc": "projects/jatayu_img.jpg",
     "description": "A mobile app to enhance women's safety by alerting nearby police of harassment incidents within a 2 km radius. Integrated YOLO for real-time CCTV analysis and enabled location sharing via Firebase.",
     "skills": ["Flutter", "Firebase", "YOLO", "Google Maps API", "Geolocation", "SOS Alert"],
-    "demo": "https://www.youtube.com/watch?v=VXfzulX51gs",
+    "demo": "https://www.youtube.com/watch?v=8bPDCZ_syxo",
     "source": "https://github.com/Devarsh-42/RakshaLink"
   },
   {

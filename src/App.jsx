@@ -10,7 +10,7 @@ import { Skills } from "./components/Skills/skills"; // Importing the new Skills
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Skills /> {/* Render Skills section before Experience */}

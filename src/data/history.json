@@ -1,15 +1,16 @@
 [
   {
-    "role": "Native & Flutter Developer Intern",
-    "organisation": "CodeHop Interfusion",
-    "startDate": "May 2024",
-    "endDate": "November 2024",
+    "role": "Application Developer Intern",
+    "organisation": "Volcan Vision and Automation Pvt Ltd",
+    "startDate": "May 2025",
+    "endDate": "July 2025",
     "experiences": [
-      "Collaborated with a team of 5+ developers to build Mason, a multiplayer board game connecting players via a host mobile server on the same network.",
-      "Developed the UI for a job portal similar to Glassdoor, improving user experience and responsiveness.",
-      "Integrated APIs and followed Agile methodologies, reducing the development cycle by 2 weeks."
+      "Built a Cross-platform Supply Chain Management Website and App using Flutter and Supabase from scratch.",
+      "Created and maintained backend in PostgreSQL, ensuring robust database design and optimization.",
+      "Developed multiple interfaces including admin, production, and sales dashboards to trace every aspect of the supply chain.",
+      "Implemented real-time tracking and analytics features for comprehensive supply chain visibility."
     ],
-    "imageSrc": "history/codehop_fusion_logo.jpg"
+    "imageSrc": "history/volcan_vision_logo.png"
   },
   {
     "role": "Flutter & Backend Developer Intern",
@@ -23,7 +24,7 @@
     ],
     "imageSrc": "history/gormish_logo.png"
   },
-  {
+    {
     "role": "Lead Developer",
     "organisation": "Conference Manager App for PDEU",
     "startDate": "November 2024",
@@ -33,5 +34,17 @@
       "Implemented real-time schedule updates, speaker details, and interactive Q&A features."
     ],
     "imageSrc": "history/Pandit_Deendayal_Energy_University_logo.png"
+  },
+  {
+    "role": "Native & Flutter Developer Intern",
+    "organisation": "CodeHop Interfusion",
+    "startDate": "May 2024",
+    "endDate": "November 2024",
+    "experiences": [
+      "Collaborated with a team of 5+ developers to build Mason, a multiplayer board game connecting players via a host mobile server on the same network.",
+      "Developed the UI for a job portal similar to Glassdoor, improving user experience and responsiveness.",
+      "Integrated APIs and followed Agile methodologies, reducing the development cycle by 2 weeks."
+    ],
+    "imageSrc": "history/codehop_fusion_logo.jpg"
   }
 ]
