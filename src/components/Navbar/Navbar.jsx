@@ -26,7 +26,11 @@ export const Navbar = () => {
   return (
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.logo}>
-        <span className={styles.logoText}>Protfolio</span>
+        <img 
+          src={getImageUrl("nav/devarsh_profile_pic_nav.png")} 
+          alt="Devarsh Mehta" 
+          className={styles.logoImg}
+        />
       </div>
       
       <div className={styles.menu}>
