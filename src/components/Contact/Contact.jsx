@@ -44,7 +44,7 @@ export const Contact = () => {
               title="YouTube"
             >
               <img
-                src={getImageUrl("contact/youtube_icon.jpg")}
+                src={getImageUrl("contact/youtube_icon.png")}
                 alt="Twitter"
               />
             </a>
@@ -56,7 +56,7 @@ export const Contact = () => {
               title="Twitter"
             >
               <img
-                src={getImageUrl("contact/twitter_icon.jpg")}
+                src={getImageUrl("contact/twitter_icon.png")}
                 alt="Twitter"
               />
             </a>
