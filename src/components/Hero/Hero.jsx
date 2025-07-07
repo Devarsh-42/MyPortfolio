@@ -8,7 +8,7 @@ export const Hero = () => {
     <section className={styles.container}>
       {/* Add Navbar */}
       <Navbar />
-
+      
       {/* Content Section */}
       <div className={styles.content}>
         <div className={styles.greeting}>👋 Hello, I'm</div>
@@ -17,12 +17,12 @@ export const Hero = () => {
           <span className={styles.titleRole}>Mobile & Backend Developer</span>
         </h1>
         <p className={styles.description}>
-          I'm a <span className={styles.highlight}>4th-year ICT Engineering student</span>, a{" "}
+          I'm a <span className={styles.highlight}>4th-year ICT Engineering student</span> specializing in{" "}
           <span className={styles.highlight}>Cross-Platform & Native Mobile Development</span> and{" "}
           <span className={styles.highlight}>Backend Development</span>. I have hands-on experience building{" "}
           <span className={styles.highlight}>AI-powered applications</span> with{" "}
-          <span className={styles.highlight}>AI agent integration</span>, and I've also have experience with deployment and scaling processes on various{" "}
-          <span className={styles.highlight}>Cloud Platforms</span>.
+          <span className={styles.highlight}>AI agent integration</span>, and I've also worked on{" "}
+          <span className={styles.highlight}>DevOps</span> pipelines to streamline deployment and scaling processes.
         </p>
 
         <div className={styles.buttonContainer}>
@@ -66,9 +66,11 @@ export const Hero = () => {
             Blog
           </a>
           <a
-            href="/resume.pdf"
+            href="/assets/hero/MyResume_2025.pdf"
             className={styles.downloadBtn}
-            download="Devarsh_Mehta_Resume.pdf"
+            download="Devarsh_Mehta_Resume_2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span className={styles.btnIconText}>📄</span>
             Resume
