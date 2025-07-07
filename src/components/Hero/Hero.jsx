@@ -17,11 +17,11 @@ export const Hero = () => {
           <span className={styles.titleRole}>Mobile & Backend Developer</span>
         </h1>
         <p className={styles.description}>
-          I'm a <span className={styles.highlight}>4th-year ICT Engineering student</span> specializing in{" "}
+          I'm a <span className={styles.highlight}>4th-year ICT Engineering student</span>, a{" "}
           <span className={styles.highlight}>Cross-Platform & Native Mobile Development</span> and{" "}
           <span className={styles.highlight}>Backend Development</span>. I have hands-on experience building{" "}
           <span className={styles.highlight}>AI-powered applications</span> with{" "}
-          <span className={styles.highlight}>AI agent integration</span>, and I've also have experience with deployment and scaling processes various{" "}
+          <span className={styles.highlight}>AI agent integration</span>, and I've also have experience with deployment and scaling processes on various{" "}
           <span className={styles.highlight}>Cloud Platforms</span>.
         </p>
 

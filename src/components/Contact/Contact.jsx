@@ -37,6 +37,18 @@ export const Contact = () => {
               />
             </a>
             <a
+              href="https://www.youtube.com/@StellarTech-nj7cu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialLink}
+              title="YouTube"
+            >
+              <img
+                src={getImageUrl("contact/youtube_icon.jpg")}
+                alt="Twitter"
+              />
+            </a>
+            <a
               href="https://x.com/Devarsh_42"
               target="_blank"
               rel="noopener noreferrer"
@@ -44,7 +56,7 @@ export const Contact = () => {
               title="Twitter"
             >
               <img
-                src={getImageUrl("contact/twitter_icon.png")}
+                src={getImageUrl("contact/twitter_icon.jpg")}
                 alt="Twitter"
               />
             </a>
