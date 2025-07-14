@@ -34,7 +34,7 @@ export const Experience = () => {
     <section className={styles.container} id="experience" ref={experienceRef}>
       <div className={styles.header}>
         <div className={styles.headerLine}></div>
-        <h2 className={styles.title}>Professional Journey</h2>
+        <h2 className={styles.title}>Industry Experience</h2>
         <div className={styles.headerLine}></div>
       </div>
       
